@@ -5,4 +5,8 @@ class Person
     @name = name
     @email = email
   end
+
+  def mail_to
+    "mailto://#{@email}"
+  end
 end
